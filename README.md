@@ -26,6 +26,13 @@ LLMの勉強のため、LLMサービスの代表格、Chat-GPTのAPIを使って
     - "終了"と回答したときの動作は安定しているため、ルール違反の答えに対する動作のパターンを具体的に`system_prompt`に追加してみる
     - プロンプトではなく、コンテキストとしてルールや挙動のパターンをAPIに渡す方法があるか
 
+## ライセンスと利用条件
+- このプロジェクトは `MIT License` の下で公開します。詳細は `LICENSE` ファイルを参照してください。
+- 本プロジェクトは OpenAI API を利用します。使用にあたっては OpenAI の利用規約およびポリシーに従ってください。
+- `openai` Python SDK は MIT License で配布されています。
+- `google.colab` を使用する場合は Google Colab の利用規約を順守してください。
+- APIキーやシークレット情報は絶対にリポジトリに含めないでください。`openai_apikey.key` のようなファイルは公開しないでください。
+
 ## 参考
 - Udemy [大規模言語モデル（LLM）・生成系AIをディープラーニングの成り立ちから学びPythonで動かしてみよう！](https://www.udemy.com/course/llm-ai-python/?srsltid=AfmBOoqZ6BbH2QjIE8VdlX15p-0JnG97lwI9flcMr9niT0GrzwXTxoxj&couponCode=V2JPLETSLEARN)
 - [OpenAI APIドキュメント](https://platform.openai.com/docs/api-reference/chat/create)
